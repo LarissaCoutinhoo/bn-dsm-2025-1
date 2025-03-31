@@ -6,7 +6,7 @@ const prisma = new PrismaClient({
     emit: 'event',
     level: 'query'
   }]
-})
+});
 
 prisma.$on('query', event => {
   // Personaliza a forma como a instrução do BD
