@@ -134,6 +134,8 @@ controller.delete = async function(req, res) {
       res.status(500).send(error)
     }
   }
-}
+  }
+
+
 
 export default controller
